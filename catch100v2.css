@@ -1,0 +1,176 @@
+body {
+    margin: auto 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    justify-content: stretch;
+    height: 740px;
+    
+
+}
+
+@media only screen and (max-width:1000px) {
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .text {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width:720px) {
+    .text {
+        font-size: 18px;
+    }
+}
+
+.cover {
+
+    height: 735px;
+}
+
+
+
+/*LEFTCOVER*/
+
+.leftCover {
+    display: grid;
+    grid-template-rows: 2fr 5fr 1fr;
+    grid-template-columns: 1fr;
+    background: rgb(255, 255, 255);
+
+}
+
+.leftCoverSections {}
+
+h2 {
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 4em;
+    color: #00b5cc;
+
+
+}
+
+
+
+.middleSection {
+
+    margin-left: 14%;
+    margin-right: 14%;
+
+    background-color: white;
+    border-top: 10px solid purple;
+    /* fallback for old browsers */
+
+    border-left: 1px #f3f1ef solid;
+    border-bottom: 1px #f3f1ef solid;
+    border-right: 1px #f3f1ef solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+p {
+    text-align: left;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.ruleOne {
+    color: #00b5cc;
+}
+
+.ruleTwo {
+    color: blue;
+}
+
+.ruleThree {
+    color: darkblue;
+}
+
+/*RIGHTCOVER*/
+
+.rightCover {
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    padding-top: 1px;
+    padding-bottom: 1px;
+
+}
+
+.containerTwo {
+    margin-left: 14%;
+    margin-right: 14%;
+    margin-top: 8px;
+    border-top: 10px solid #00b5cc;
+    background-color: white;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+
+    height: 95%;
+}
+
+.containerTwo {
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr 1fr 1fr;
+}
+
+
+
+.score {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 100;
+    font-size: 170px;
+    text-align: center;
+}
+
+button {
+    background-color: purple;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: all 1s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.buttonHover:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.diceRoll:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.rightBox {
+    margin: auto;
+}
+
+img {
+    height: 60px;
+}
+
+h2 {
+    border-left: 8px solid #00b5cc;
+    
+}
+
+.positionText {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    width: 50%;
+    border-left: 10px #00b5cc solid;
+    border-right: 10px #00b5cc solid;
+    text-align: center;
+}
