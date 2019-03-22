@@ -3,7 +3,7 @@
 
     let rollDiceButton = document.getElementById('mee');
     let firstDice = document.getElementById('firstDice');
-    let secondDice = document.getElementsByClassName('secondDice');
+    let secondDice = document.getElementById('secondDice');
     
     let images =["dice1.png","dice2.png","dice3.png","dice4.png","dice5.png","dice6.png", ]
 
@@ -15,9 +15,8 @@
     
     
     rollDiceButton.addEventListener('click', function(){
-        let random = Math.floor((Math.random() * 5) );
-        firstDice.src = images[random];
-        secondDice.src = images[random];
+       diceChange(firstDice);
+       diceChange(secondDice);
         
     });
 
@@ -25,9 +24,10 @@
     
 
 
-    function diceChange(diceroll){
-        let random = Math.floor((Math.random() * 6) + 1);
-        diceroll.src =`image ${random}.png`;
+    function diceChange(diceNum){
+        let random = Math.floor((Math.random() * 5) );
+        diceNum.src = images[random];
+        
     }
     
     
