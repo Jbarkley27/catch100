@@ -23,11 +23,11 @@
             <div class="leftCoverSections middleSection">
                 <p class="text">The objective of this game is to get to number 100 in the least moves as possible. The player may choose to either add 1, or roll two dice, and add the amount represented by the sum of the dice.</p>
 
-                <p><span class="ruleOne text">If after a move your position number ends in 5 (5, 15, 25, etc.), an extra 5 is added to your initial position. </span>
+                <p><span id="rule1" class="ruleOne text">If after a move your position number ends in 5 (5, 15, 25, etc.), an extra 5 is added to your initial position. </span>
 
-                    <span class="ruleTwo text"> If the initial number is evenly divisible by 13, the final position is calculated by subtracting twice the player’s movement from the initial position.</span>
+                    <span id="rule2" class="ruleTwo text"> If the initial number is evenly divisible by 13, the final position is calculated by subtracting twice the player’s movement from the initial position.</span>
 
-                    <span class="ruleThree text">If the initial number is past 100, the final number is calculated by subtracting 100 from the initial position.</span></p>
+                    <span id="rule3" class="ruleThree text">If the initial number is past 100, the final number is calculated by subtracting 100 from the initial position.</span></p>
 
 
             </div>
@@ -44,12 +44,12 @@
 
                     <!--Display of Dice-->
 
-                    <img id="firstDice" src="dice6.png" alt="">
-                    <img id="secondDice" src="dice5.png" alt="">
+                    <img id="firstDice" src="dice1.png" alt="">
+                    <img id="secondDice" src="dice1.png" alt="">
                 </div>
 
                 <div class="rightBox start ">
-                    
+
                     <!--RESET BUTTON-->
                     <button id = "reset" class="startButton buttonHover">Reset Game</button>
                 </div>

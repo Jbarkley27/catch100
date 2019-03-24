@@ -46,7 +46,7 @@ body {
 
 }
 
-.leftCoverSections {}
+
 
 h2 {
     text-align: center;
@@ -174,4 +174,15 @@ h2 {
     border-left: 10px #00b5cc solid;
     border-right: 10px #00b5cc solid;
     text-align: center;
+}
+
+
+.boldText {
+    font-weight: bolder;
+    background-color: yellow;
+}
+
+.hide {
+    visibility: hidden;
+    display: none;
 }
