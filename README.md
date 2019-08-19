@@ -1,2 +1,2 @@
-# catch100
-A web game I made to practice my HTML/CSS/Javascript skills
+# catch100 
+A web based version of DiceGame(already on github written in java) that adds a beautiful and responsive interface.
